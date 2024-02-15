@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#myInput {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+}
+
+#myUL li {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+#myUL li:hover {
+    background-color: #f0f0f0;
+}
+
+#myUL li.checked {
+    background-color: #4CAF50;
+    color: white;
+}
